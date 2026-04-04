@@ -232,8 +232,15 @@ section { padding: 96px 0; }
   font-size: 1.05rem;
   font-weight: 400;
   color: var(--slate);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.2rem;
   line-height: 1.5;
+}
+
+.hero-subtitle {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--slate-light);
+  margin-bottom: 1.25rem;
 }
 
 .hero-bio {
@@ -603,6 +610,7 @@ footer {
     gap: 2.5rem;
   }
   .hero-image img { width: 200px; height: 200px; }
+  .hero-image { align-self: center; }
 
   .skill-quad { grid-template-columns: 1fr; gap: 2rem; }
   .cards { grid-template-columns: 1fr; }
