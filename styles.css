@@ -356,7 +356,7 @@ section { padding: 96px 0; }
 .tl-item::before {
   content: '';
   position: absolute;
-  left: -2.65rem;
+  left: calc(-2.5rem - 6px);
   top: 0.35rem;
   width: 10px;
   height: 10px;
@@ -622,5 +622,5 @@ footer {
   .nav-links { display: none; }
   section { padding: 70px 0; }
   .timeline { padding-left: 1.5rem; }
-  .tl-item::before { left: -1.65rem; }
+  .tl-item::before { left: calc(-1.5rem - 6px); }
 }
